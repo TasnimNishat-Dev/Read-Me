@@ -1,0 +1,110 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+
+.container {
+   height: 100%;
+   width: 100%;
+}
+
+/* Navbar */
+.navbar {
+	width: 100%;
+	margin: auto;
+	padding: 15px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    background-color: rgba(253, 170, 170, 0.9);
+}
+.logo {
+	width: 100px;
+	cursor: pointer;
+}
+.navbar ul li {
+	list-style:none;
+	display: inline-block;
+	margin: 0 15px;
+}
+.navbar ul li a {
+	text-decoration:none;
+	color:#ef476f;
+	font-size: 15px;
+}
+.navbar ul li a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdf6f6;
+  color: #333;
+}
+
+.title {
+  text-align: center;
+  margin: 30px 0 20px;
+  font-size: 32px;
+  color: #ef476f;
+}
+
+.skills-table {
+  width: 50%;
+  margin: auto;
+}
+
+.skills-table h2 {
+  margin: 25px 0 10px;
+  color: #444;
+  border-bottom: 2px solid #ef476f;
+  padding-bottom: 5px;
+  font-size: 22px;
+}
+
+.skills-table table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 20px 20px;
+}
+
+.skills-table td {
+  padding: 20px;
+}
+
+.skills-table img {
+  height: 60px;
+  width: auto;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.skills-table img:hover {
+  transform: scale(1.2);
+}
+
+.skills-table p {
+  font-size: 14px;
+  margin: 0;
+  color: #333;
+}
+
+.box-container {
+    display: flex;           /* make it a flex container */
+    justify-content: center; /* center the images horizontally */
+    align-items: center;     /* center vertically if needed */
+    gap: 10px;               /* space between images */
+}
+
+.box {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;       /* ensures images fit nicely */
+}

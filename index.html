@@ -1,0 +1,50 @@
+<html>
+<head>
+   <title> Music Website</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class = "container">
+  <div class ="navbar">
+  <img src="headphoneLogo.svg" class="logo">
+  <ul>
+     <li><a href="index.html">HOME</a></li>
+	 <li><a href="indexx.html">WEATHER</a></li>
+	 <li><a href="pop.html">ABOUT</a></li>
+	 <li><a href="contact.html">CONTACT</a></li>
+	 
+ </ul> 
+  </div>
+ <div class ="content">
+ 
+    <div class="left-col">
+	     <h1>ADORE<br>YOUR<br>MUSIC</h1>
+	</div>
+	<div class="right-col">
+	    <p>Listen Your music</p>
+		<img src="play.png" id="icon">
+	</div>
+	
+ </div>
+ 
+ 
+    <audio id="bensound">
+	    <source src="bensound-adventure.mp3" type="audio/mp3">
+	</audio>
+	<script>
+	    var bensound = document.getElementById("bensound");
+		var icon = document.getElementById("icon");
+	    icon.onclick = function(){
+		    if(bensound.paused){
+			bensound.play();
+			icon.src = "pause.png";
+			} else{
+			    bensound.pause();
+			icon.src = "play.png";
+			}
+		}
+	    
+	</script
+ </div>
+</body>
+</html>
