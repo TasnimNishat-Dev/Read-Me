@@ -8,8 +8,8 @@ A simple and responsive website showcasing my projects, skills, and achievements
 ---
 
 ## 🎥 Demo Preview
-![Demo Preview]()
- 
+![Demo Preview](LiveDemo/demo.gif)
+
 
 ---
 
