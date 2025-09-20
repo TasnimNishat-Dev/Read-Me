@@ -7,8 +7,26 @@ A simple and responsive website showcasing my projects, skills, and achievements
 
 ---
 
+## 📸 Preview
+<!-- Row 1 -->
+<p align="center">
+  <img src="LiveDemo/1.jpg" width="300">
+  <img src="LiveDemo/2.jpg" width="300">
+</p>
+
+<!-- Row 2 -->
+<p align="center">
+  <img src="LiveDemo/3.jpg" width="300">
+  <img src="LiveDemo/4.jpg" width="300">
+</p>
+
+
+---
+
 ## 🎥 Demo Preview
-![Demo Preview](LiveDemo/demo.gif)
+<p align="center">
+  <img src="LiveDemo/demo.gif" width="300">
+</p>
 
 
 ---
