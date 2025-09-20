@@ -3,7 +3,7 @@
 
 A simple and responsive website showcasing my projects, skills, and achievements.  
 
-🚀 **Live Demo:** [View Website](https://tasnimnishat-dev.github.io/Read-Me/)
+🚀 **Live Demo:** [ Play-Music-Website](https://tasnimnishat-dev.github.io/Read-Me/)
 
 ---
 
@@ -28,4 +28,4 @@ A simple and responsive website showcasing my projects, skills, and achievements
 
 ---
 
-💡 Made with ❤️ by [Your Name](https://github.com/TasnimNishat-Dev)
+💡 Made with ❤️ by [Tasnim](https://github.com/TasnimNishat-Dev)
